@@ -9,14 +9,12 @@ import Servicos from './Components/Servicos';
 function App() {
   return (
     <div className="App">
-      <>
         <Cabecalho />
         <Banner />
         <section id="home"><PrimeiroBloco /></section>
         <SegundoBloco />
         <section id="servicos"><Servicos /></section>
         <ScrollButton/>
-      </>
     </div>
   );
 }

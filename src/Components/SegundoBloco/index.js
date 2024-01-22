@@ -1,5 +1,5 @@
 import styles from './SegundoBloco.module.css';
-import imgTerra from '/src/Assets/Imagens/imgTerra.png';
+import imgTerra from '../../assets/images/boy.png';
 
 const SegundoBloco = () => {
     return (

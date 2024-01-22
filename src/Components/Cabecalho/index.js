@@ -1,6 +1,6 @@
 import styles from './Cabecalho.module.css';
-import {ReactComponent as logo} from '/src/Assets/Imagens/logo.png';
-import BotaoComOpcoes from '../BotaoLogin';
+import logo from '../../assets/images/logo.png';
+import BotaoComOpcoes from '../../Components/BotaoLogin';
 
 const Cabecalho = () => {
 

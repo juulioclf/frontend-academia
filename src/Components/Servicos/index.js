@@ -1,5 +1,5 @@
 import styles from "./Servicos.module.css"
-import {ReactComponent as Imagem} from "/src/Assets/Imagens/homem-correndo.jpg"
+import Imagem from "../../assets/images/boy-running.jpg"
 
 
 const Servicos = () => {

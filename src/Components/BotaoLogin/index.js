@@ -1,9 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 import styles from './BotaoLogin.module.css';
+import { useNavigate } from "react-router-dom";
 
 const BotaoComOpcoes = () => {
   const [mostrarOpcoes, setMostrarOpcoes] = useState(false);
   const botaoRef = useRef(null);
+  const navigate = useNavigate();
 
   const toggleOpcoes = () => {
     setMostrarOpcoes(!mostrarOpcoes);
@@ -32,12 +34,16 @@ const BotaoComOpcoes = () => {
     };
   }, []);
 
+  function goToLogin() {
+    navigate("/login")
+  }
+
   return (
     <div>
       <button ref={botaoRef} className={styles.botao} type="button" onClick={toggleOpcoes}>LOGIN</button>
       {mostrarOpcoes && (
         <div className={styles.opcao}>
-          <button onClick={() => handleOpcaoSelecionada('Opção 1')}>Area do aluno</button>
+          <button onClick={() => goToLogin()}>Area do aluno</button>
           <button onClick={() => handleOpcaoSelecionada('Opção 2')}>Area do professor</button>
         </div>
       )}

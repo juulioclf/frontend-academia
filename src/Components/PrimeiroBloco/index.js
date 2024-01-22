@@ -1,5 +1,5 @@
 import styles from './PrimeiroBloco.module.css';
-import {ReactComponent as ImagemMulher} from '/src/Assets/Imagens/imgMulher.png';
+import ImagemMulher from '../../assets/images/woman2.png';
 
 const PrimeiroBloco = () => {
     return(

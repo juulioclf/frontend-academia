@@ -1,5 +1,7 @@
 import styles from "./Servicos.module.css"
-import Imagem from "./homem-correndo.jpg"
+import {ReactComponent as Imagem} from "/src/Assets/Imagens/homem-correndo.jpg"
+
+
 const Servicos = () => {
     return (
         <section className={styles.container}>

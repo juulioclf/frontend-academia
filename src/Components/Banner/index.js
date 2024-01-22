@@ -1,5 +1,5 @@
 import styles from './Banner.module.css'
-import ImagemPri from './Rectangle 1.png'
+import {ReactComponent as ImagemPri} from '/src/Assets/Imagens/Rectangle 1.png'
 
 const Banner = () => {
         return (

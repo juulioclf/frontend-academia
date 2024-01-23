@@ -1,5 +1,5 @@
 import styles from './Cabecalho.module.css';
-import logo from '../../assets/images/logo.png';
+import logo from '../../Assets/images/logo.png';
 import BotaoComOpcoes from '../../Components/BotaoLogin';
 
 const Cabecalho = () => {
@@ -14,20 +14,20 @@ const Cabecalho = () => {
 
     return(
         <header className={styles.cabecalho}>
-            <img src={logo} alt="Logo_do_Dico"></img>
+            <img src={logo} alt="Logo-do-Dico"></img>
                 <nav>
                     <ul>
                         <li>
                                 <a onClick={() => scrollToSection('home')}> HOME </a>
                         </li>
                         <li>
+                            <hr/><a onClick={() => scrollToSection('sobre')}> SOBRE </a>
+                        </li>
+                        <li>
                             <hr/><a onClick={() => scrollToSection('servicos')}> SERVIÇOS </a>
                         </li>
                         <li>
                             <hr/><a onClick={() => scrollToSection('alunos')}> ALUNOS </a>
-                        </li>
-                        <li>
-                            <hr/><a onClick={() => scrollToSection('sobre')}> SOBRE </a>
                         </li>
                         <li>
                             <hr/><a onClick={() => scrollToSection('contatos')} >  CONTATOS </a>

@@ -5,15 +5,17 @@ import Cabecalho from '../../Components/Cabecalho';
 import PrimeiroBloco from '../../Components/PrimeiroBloco';
 import SegundoBloco from '../../Components/SegundoBloco';
 import Servicos from '../../Components/Servicos';
+import Footer from '../../Components/Footer';
 
 function Home() {
   return (
     <div className="App">
         <Cabecalho />
-        <Banner />
-        <section id="home"><PrimeiroBloco /></section>
+        <section id="home"><Banner /></section>
+        <section id="sobre"><PrimeiroBloco /></section>
         <SegundoBloco />
         <section id="servicos"><Servicos /></section>
+        <section id="contatos"><Footer /></section>
         <ScrollButton/>
     </div>
   );

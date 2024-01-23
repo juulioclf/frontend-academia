@@ -1,11 +1,12 @@
 :root {
-  --fonte: 'Montserrat', sans-serif;
-  --vermelho: #F22727;
+  --vermelho: #e72525;
   --fonte: 'Poppins', sans-serif;
+  --branco: #EFEFEF;
 }
 
 
 body {
+  background-color: var(--branco);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Poppins',  'Fira Sans', 'Droid Sans', 'Helvetica Neue',

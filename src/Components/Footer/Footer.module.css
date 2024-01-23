@@ -1,0 +1,43 @@
+.container {
+    background-color: black;
+    margin-top: 4em;
+    padding: 4em 0 2em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadastro {
+    background-color: var(--vermelho);
+    width: 40%;
+    border-radius: 20px;
+    padding: 1em;
+}
+
+.cadastro input {
+    width: 90%;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 20px;
+    border: none;
+}
+
+.cadastro ::placeholder {
+    font-family: var(--fonte);
+    font-size: 15px;
+}
+
+.contatos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--branco);
+    width: 42%;
+    font-family: var(--fonte);
+    font-size: 16px;
+}
+
+.icone {
+    display: flex;
+    align-items: center;
+}

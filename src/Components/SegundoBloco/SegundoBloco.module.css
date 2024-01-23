@@ -4,9 +4,8 @@
 }
 
 .imgText img {
-
     width: 100%;
-    height: 470px;
+    height: 500px;
 }
 
 .fraseSobre {
@@ -14,7 +13,7 @@
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: var(--branco);
     font-family: 'Poppins';
     font-size: 2em;
     width: 50%;

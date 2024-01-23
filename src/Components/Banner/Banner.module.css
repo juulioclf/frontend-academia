@@ -12,7 +12,7 @@
     left: 38%;
     transform: translate(-50%, -50%);
     text-align: left;
-    color: whitesmoke;
+    color: var(--branco);
 }
 
 .fraseSobre h1 {

@@ -3,10 +3,7 @@ import { Container, Form } from './styles'
 import InputLogin from "../../Components/Input";
 import BotaoLogin from "../../Components/Button-Page-Login";
 import { validarEmail, validarSenha } from "../../Utils/Validadores";
-import UserService from "../../Services/UserService";
-
-const userService = new UserService()
-
+import { GetLogin } from "../../Services/UserServices/UserService";
 
 export default function Login() {
 
@@ -17,7 +14,7 @@ export default function Login() {
         event.preventDefault();
         try {
             setLoading(true)
-            const response = await userService.login(form);
+            const response = await GetLogin(form);
             console.log('response do login', response)
             if (response === true) {
                 alert('usuario logado com sucesso')

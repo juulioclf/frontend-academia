@@ -1,0 +1,15 @@
+.imagecontainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}

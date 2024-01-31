@@ -2,8 +2,12 @@
   --vermelho: #e72525;
   --fonte: 'Poppins', sans-serif;
   --branco: #EFEFEF;
+  --fonte-login: 'Kanit', sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-color: var(--branco);

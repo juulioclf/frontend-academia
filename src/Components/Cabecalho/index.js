@@ -1,6 +1,6 @@
 import styles from './Cabecalho.module.css';
 import logo from '../../Assets/images/logo.png';
-import BotaoComOpcoes from '../../Components/BotaoLogin';
+import BotaoComOpcoes from '../../Components/Button-home';
 
 const Cabecalho = () => {
 

@@ -1,5 +1,5 @@
   import styles from './Banner.module.css'
-  import Woman from "../../Assets/images/woman.png";
+  import Woman from "../../assets/images/woman.png";
 
   const Banner = () => {
           return (

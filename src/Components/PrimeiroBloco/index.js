@@ -1,5 +1,5 @@
 import styles from './PrimeiroBloco.module.css';
-import ImagemMulher from '../../Assets/images/woman2.png';
+import ImagemMulher from '../../assets/images/woman2.png';
 
 const PrimeiroBloco = () => {
     return(

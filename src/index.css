@@ -1,8 +1,9 @@
 :root {
-  --vermelho: #e72525;
+  --vermelho: #FF0000;
   --fonte: 'Poppins', sans-serif;
   --branco: #EFEFEF;
   --fonte-login: 'Kanit', sans-serif;
+  --fonte-register: 'Protest Guerrilla', sans-serif;
 }
 
 * {

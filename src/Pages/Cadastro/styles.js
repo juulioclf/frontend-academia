@@ -14,12 +14,12 @@ export const Form = styled.form`
     display: flex;
     padding: 4rem;
     flex-direction: column;
-    margin-right: 12.5em;
+    margin-right: 10em;
     align-items: center;
     justify-content:center;
     background-color: #1B1717;
-    box-shadow: 4px 2px 15px 3px black;
     border-radius: 60px;
+    box-shadow: 4px 2px 15px 3px black;
     width: 100%;
     max-width: 650px;
     gap: 30px 0px;
@@ -38,7 +38,6 @@ export const Form = styled.form`
     }
 
     a {
-        margin-right: 15em;
         color: white;
         font-size: 14px;
     }

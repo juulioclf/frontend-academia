@@ -1,4 +1,4 @@
-import ImgLogin from "../../assets/images/Image-Login.svg"
+import ImgLogin from "../../Assets/images/Image-Login.svg"
 import styles from './LoginImage.module.css'
 
 const ImageLogin = () => {

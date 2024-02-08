@@ -1,10 +1,13 @@
 import React from 'react';
-import UserService from '../Services/UserService';
-import { Router } from 'react-router-dom';
+import Routering from '../Routes/routes';
+import UserServices from '../Services/UserService';
 
-const userService = new UserService();
+const userService = new UserServices();
 
 const ProtectedRoutes = ({children}) => {
+    console.log('children', children)
     const usuarioAutenticado = userService.usuarioAutenticado()
-    return usuarioAutenticado ? children: <Router/>
+    return usuarioAutenticado ? children: <Routering />
 }
+
+export default ProtectedRoutes;

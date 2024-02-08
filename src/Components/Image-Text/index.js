@@ -1,5 +1,5 @@
 import styles from './Image-text.module.css';
-import Imagem from "../../assets/images/boy-running.jpg"
+import Imagem from "../../Assets/images/boy-running.jpg"
 
 const ImageText = () => {
     return(

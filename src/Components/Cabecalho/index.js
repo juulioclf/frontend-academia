@@ -1,5 +1,5 @@
 import styles from './Cabecalho.module.css';
-import logo from '../../assets/images/logo.png';
+import logo from '../../Assets/images/logo.png';
 import BotaoComOpcoes from '../../Components/Button-home';
 
 const Cabecalho = () => {

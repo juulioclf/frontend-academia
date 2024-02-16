@@ -1,17 +1,16 @@
 import ImgRegister from "../../Assets/images/Image-register.png"
-import styles from './RegisterLogin.module.css'
+import { ImageContainer, Image, FraseSobre } from "./styles";
 
 const ImageRegister = () => {
     return(
-        <div className={styles.imagecontainer}>
-            <img src={ImgRegister}
-                 alt="image-background"
-                 className={styles.image} 
+        <ImageContainer>
+            <Image src={ImgRegister}
+                   alt="image-background"
             />
-            <div className= {styles.fraseSobre}>
+            <FraseSobre>
                 <h1>"A jornada para um corpo saudável e forte começa com um único passo. Dê esse passo hoje!"</h1>
-            </div>
-        </div>
+            </FraseSobre>
+        </ImageContainer>
     )
 }
 

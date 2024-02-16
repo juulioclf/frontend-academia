@@ -1,16 +1,39 @@
 import ImageText from "../Image-Text";
-import styles from "./Servicos.module.css"
+import { Container, BlockImage } from "./styles";
+import BoyRunning from '../../Assets/images/boy-running.jpg'
+import mantraining from '../../Assets/images/homem-levantando-peso.webp'
 
 
 const Servicos = () => {
+
+    const TitleLeft = [
+        "Basic Fitness"
+    ]
+
+    const Titleright = [
+        "Medium Fitness"
+    ]
+
+    const Listleft = [
+        "Consultoria online",
+        "Protocolo para iniciantes",
+        "Protocolo para atletas",
+    ]
+
+    const Listright = [
+        "Protocolo personalizado",
+        "envio por e-mail",
+        "em pdf",
+    ]
+
     return (
-        <section className={styles.container}>
+        <Container>
             <h1>NOSSOS <strong>SERVIÇOS</strong>:</h1>
-            <div className={styles.imgtxt}>
-                <ImageText />
-                <ImageText />
-            </div>
-        </section>
+            <BlockImage>
+                <ImageText imageSrc={BoyRunning} altText="homem correndo" titleItem={TitleLeft} listItem={Listleft} />
+                <ImageText imageSrc={mantraining} altText="homem levantando peso" titleItem={Titleright} listItem={Listright} />
+            </BlockImage>
+        </Container>
     )
 }
 

@@ -1,6 +1,5 @@
-import styles from './Cabecalho.module.css';
-import logo from '../../Assets/images/logo.png';
 import BotaoComOpcoes from '../../Components/Button-home';
+import { Container, Menu, Opcoes } from './styles';
 
 const Cabecalho = () => {
 
@@ -13,32 +12,31 @@ const Cabecalho = () => {
       };
 
     return(
-        <header className={styles.cabecalho}>
-            <img src={logo} alt="Logo-do-Dico"></img>
+        <Container>
                 <nav>
-                    <ul>
-                        <li>
+                    <Menu>
+                        <Opcoes>
                                 <a onClick={() => scrollToSection('home')}> HOME </a>
-                        </li>
-                        <li>
+                        </Opcoes>
+                        <Opcoes>
                             <hr/><a onClick={() => scrollToSection('sobre')}> SOBRE </a>
-                        </li>
-                        <li>
+                        </Opcoes>
+                        <Opcoes>
                             <hr/><a onClick={() => scrollToSection('servicos')}> SERVIÇOS </a>
-                        </li>
-                        <li>
+                        </Opcoes>
+                        <Opcoes>
                             <hr/><a onClick={() => scrollToSection('alunos')}> ALUNOS </a>
-                        </li>
-                        <li>
+                        </Opcoes>
+                        <Opcoes>
                             <hr/><a onClick={() => scrollToSection('contatos')} >  CONTATOS </a>
-                        </li>
-                        <li>
+                        </Opcoes>
+                        <Opcoes>
                             <hr/>
                             <BotaoComOpcoes/>
-                        </li>
-                    </ul>
+                        </Opcoes>
+                    </Menu>
                 </nav>
-        </header>
+        </Container>
     )
 }
 

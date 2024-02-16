@@ -1,24 +1,25 @@
-import styles from './Footer.module.css';
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { Container, Cadastro, Icone, Contatos } from './styles';
 
 
 
 const Footer = () => {
     return(
-        <section className={styles.container}>
-            <div className={styles.cadastro}>
+        <Container>
+            <Cadastro>
                 <label for="nome"></label>
                 <input type="text" id='nome' placeholder="Digite seu nome" required></input>
                 <label for="e-mail"></label>
                 <input type="email" id='email' placeholder="Digite seu e-mail" required></input>
-            </div>
-            <div className={styles.contatos}>
+            </Cadastro>
+            <Contatos>
                 <p>Número de contato:(92) 99245-2675</p>
-                <p className={styles.icone}>Me siga: <FaInstagram />, <FaXTwitter />
- @DicoPersonal</p>
-            </div>
-        </section>
+                <Icone>Me siga: <FaInstagram />, <FaXTwitter />
+                    @DicoPersonal
+                    </Icone>
+            </Contatos>
+        </Container>
     )
 }
 

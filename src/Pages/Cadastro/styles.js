@@ -6,7 +6,7 @@ export const Container = styled.div`
     align-items: center;
     height: 100vh;
     min-width: 100vw;
-    background-color: var(--vermelho);
+    background-color: var(--amarelo);
 
 `
 
@@ -17,7 +17,7 @@ export const Form = styled.form`
     margin-right: 10em;
     align-items: center;
     justify-content:center;
-    background-color: #1B1717;
+    background-color: var(--azul);
     border-radius: 60px;
     box-shadow: 4px 2px 15px 3px black;
     width: 100%;

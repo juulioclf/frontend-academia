@@ -1,11 +1,9 @@
 .botao {
     display: block;
-    background-color: var(--vermelho);
+    background-color: var(--amarelo);
     border: none;
-    font-size: 20px;
-    font-family: var(--fonte);
-    height: 600;
-    text-shadow: 0.5px 1px 1px black;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;;
 }
 
 .botao:hover {
@@ -37,5 +35,5 @@
 
 .opcao button:hover {
     transition: 0.5s;
-    color: var(--vermelho);
+    color: var(--amarelo);
 }

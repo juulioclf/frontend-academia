@@ -1,17 +1,20 @@
-import styles from './Image-text.module.css';
-import Imagem from "../../Assets/images/boy-running.jpg"
+import { Container, ImageAbout } from './styles';
 
-const ImageText = () => {
+const ImageText = ({ imageSrc, altText, listItem, titleItem }) => {
     return(
-        <section className={styles.container}>
-        <img className={styles.imagem} src={Imagem} alt="homem correndo"></img>
-            <h2>Basic <strong>Fitness</strong></h2>
+        <Container>
+        <ImageAbout src={imageSrc} alt={altText} />
+            {titleItem.map((title, index) => (
+                <h2 key={index}> {title} </h2>
+            ))}
+
             <ul>
-                <li>Consultoria online</li>
-                <li>Protocolo personalizado</li>
-                <li>Protocolo para atleta</li>
+                {listItem.map((item, index) => (
+                    <li key={index}>{item}</li>
+                ))}
             </ul>
-        </section>
+            
+        </Container>
     )
 }
 

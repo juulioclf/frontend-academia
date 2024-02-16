@@ -13,17 +13,16 @@ export const Container = styled.div`
 export const Form = styled.form`
     display: flex;
     position: absolute;
-    left: 35%;
+    left: 30%;
     padding: 4rem;
     flex-direction: column;
-    margin-right: 10em;
     align-items: center;
     justify-content:center;
     background-color: var(--azul);
     border-radius: 60px;
     box-shadow: 4px 2px 15px 1px black;
     width: 100%;
-    max-width: 650px;
+    max-width: 730px;
     gap: 30px 0px;
 
     h1 {

@@ -18,10 +18,10 @@ export const Form = styled.form`
     flex-direction: column;
     margin-right: 12.5em;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     background-color: var(--azul);
     box-shadow: 1px 5px 20px 1px black;
-    border-radius: 60px;
+    border-radius: 45px;
     width: 100%;
     max-width: 650px;
     gap: 30px 0px;
@@ -40,7 +40,6 @@ export const Form = styled.form`
     }
 
     a {
-        margin-right: 15em;
         color: white;
         font-size: 14px;
     }

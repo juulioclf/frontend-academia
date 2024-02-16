@@ -4,6 +4,7 @@ export const Container = styled.header`
     display: flex;
     align-items: center;
     background-color: var(--amarelo);
+
 `
 
 export const Menu = styled.ul`
@@ -11,14 +12,16 @@ export const Menu = styled.ul`
     cursor: pointer;
     display: flex;
     list-styles:none;
+    color: black;
+
 `
 
 export const Opcoes = styled.li`
     display: flex;
     align-items: center;
     padding-left: 2em;
-    font-size: 22px;
-    font-family: 'Oswald', sans-serif;;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
 
     &:hover {
         transition: 0.5s;
@@ -28,7 +31,7 @@ export const Opcoes = styled.li`
 
     hr {
         margin-right: 2em;
-        height: 35px;
-        border-color: #030303;
+        height: 38px;
+        border-color: black;
     }
 `

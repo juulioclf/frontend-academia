@@ -15,6 +15,7 @@ export const TextAbout = styled.div`
     font-size: 30px;
     color: var(--branco);
     font-family: var(--fonte);
+    text-shadow: 2px 2px 4px black;
 
     strong {
         color: var(--amarelo);
@@ -42,4 +43,5 @@ export const TextSide = styled.div`
     font-family: var(--fonte);
     width: 40%;
     color: var(--branco);
+    text-shadow: 2px 2px 4px black;
 `

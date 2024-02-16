@@ -12,6 +12,8 @@ export const Container = styled.div`
 
 export const Form = styled.form`
     display: flex;
+    position: absolute;
+    left: 35%;
     padding: 4rem;
     flex-direction: column;
     margin-right: 10em;
@@ -19,7 +21,7 @@ export const Form = styled.form`
     justify-content:center;
     background-color: var(--azul);
     border-radius: 60px;
-    box-shadow: 4px 2px 15px 3px black;
+    box-shadow: 4px 2px 15px 1px black;
     width: 100%;
     max-width: 650px;
     gap: 30px 0px;

@@ -9,6 +9,7 @@ export const Container = styled.section`
         text-align: left;
         font-family: 'Poppins';
         font-size: 20px;
+        text-shadow: 1px 1px 4px black;
     }
 
 `

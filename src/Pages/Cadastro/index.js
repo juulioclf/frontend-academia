@@ -66,9 +66,16 @@ const Cadastro = () => {
                 <ImageRegister />
             <Form>
                 <h1>Faça o seu Cadastro</h1>
+                
+                <InputLogin
+                    name='username'
+                    placeholder='Digite o seu username'
+                    onChange={handleChange}
+                    type='text' 
+                />
                 <InputLogin
                     name='nome'
-                    placeholder='Digite o seu nome'
+                    placeholder='Digite o seu nome completo'
                     onChange={handleChange}
                     type='text' 
                 />
@@ -78,6 +85,7 @@ const Cadastro = () => {
                     onChange={handleChange}
                     type='email' 
                 />
+                
                 <InputLogin
                     name='password'
                     placeholder='Digite sua senha'
@@ -86,7 +94,7 @@ const Cadastro = () => {
                 />
                 <InputLogin
                     name='confirmarPassword'
-                    placeholder='Digite seu e-mail'
+                    placeholder='Digite sua senha novamente'
                     onChange={handleChange}
                     type='password' 
                 />
@@ -98,7 +106,7 @@ const Cadastro = () => {
                 />
 
                 <SubcontainerSign>
-                    <p>Já possui conta?</p>
+                    <p>Já possui uma conta?</p>
                     <NavLink to="/login">Login</NavLink>
                 </SubcontainerSign>
                 

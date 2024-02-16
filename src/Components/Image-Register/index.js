@@ -1,5 +1,5 @@
-import ImgRegister from "../../Assets/images/Image-register.png"
-import { ImageContainer, Image, FraseSobre } from "./styles";
+import ImgRegister from "../../Assets/images/Image-Register.jpg"
+import { ImageContainer, Image} from "./styles";
 
 const ImageRegister = () => {
     return(
@@ -7,9 +7,6 @@ const ImageRegister = () => {
             <Image src={ImgRegister}
                    alt="image-background"
             />
-            <FraseSobre>
-                <h1>"A jornada para um corpo saudável e forte começa com um único passo. Dê esse passo hoje!"</h1>
-            </FraseSobre>
         </ImageContainer>
     )
 }

@@ -24,9 +24,10 @@ export const Cadastro = styled.div`
         border: none;
     }
 
-    &:holder {
+    input::placeholder {
         font-family: var(--fonte);
         font-size: 15px;
+        color: black;
     }
 
 `

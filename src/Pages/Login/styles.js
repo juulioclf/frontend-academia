@@ -11,6 +11,8 @@ export const Container = styled.div`
 `
 
 export const Form = styled.form`
+    position: absolute;
+    right: 22%;
     display: flex;
     padding: 4rem;
     flex-direction: column;
@@ -18,7 +20,7 @@ export const Form = styled.form`
     align-items: center;
     justify-content:center;
     background-color: var(--azul);
-    box-shadow: 4px 2px 15px 3px black;
+    box-shadow: 1px 5px 20px 1px black;
     border-radius: 60px;
     width: 100%;
     max-width: 650px;

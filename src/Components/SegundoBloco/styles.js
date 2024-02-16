@@ -18,6 +18,7 @@ export const TextAbout = styled.div`
     transform: translate(-50%, -50%);
     color: var(--branco);
     font-family: 'Bebas Neue', sans-serif;
+    text-shadow: 1px 1px 2px white;
     font-size: 45px;
 
     strong {

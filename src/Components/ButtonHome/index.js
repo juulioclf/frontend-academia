@@ -38,13 +38,17 @@ const BotaoComOpcoes = () => {
     navigate("/login")
   }
 
+  function goToTeacher() {
+   navigate("/Protocolo")
+  }
+
   return (
     <div>
       <button ref={botaoRef} className={styles.botao} type="button" onClick={toggleOpcoes}>LOGIN</button>
       {mostrarOpcoes && (
         <div className={styles.opcao}>
           <button onClick={() => goToLogin()}>Area do aluno</button>
-          <button onClick={() => handleOpcaoSelecionada('Opção 2')}>Area do professor</button>
+          <button onClick={() => goToTeacher()}>Area do professor</button>
         </div>
       )}
     </div>

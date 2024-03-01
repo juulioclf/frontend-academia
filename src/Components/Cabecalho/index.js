@@ -1,4 +1,4 @@
-import BotaoComOpcoes from '../../Components/Button-home';
+import BotaoComOpcoes from '../ButtonHome';
 import { Container, Menu, Opcoes } from './styles';
 
 const Cabecalho = () => {

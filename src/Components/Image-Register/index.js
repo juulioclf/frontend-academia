@@ -1,4 +1,4 @@
-import ImgRegister from "../../Assets/images/Image-Register.jpg"
+import ImgRegister from "../../assets/images/Image-Register.jpg"
 import { ImageContainer, Image} from "./styles";
 
 const ImageRegister = () => {

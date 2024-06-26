@@ -1,4 +1,4 @@
-import ImgLogin from "../../Assets/images/sport-equipment.jpg"
+import ImgLogin from "../../assets/images/sport-equipment.jpg"
 import { ImageContainer, Image } from "./styles";
 
 const ImageLogin = () => {

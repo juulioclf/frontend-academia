@@ -1,4 +1,4 @@
-import Woman from "../../Assets/images/woman.png";
+import Woman from "../../assets/images/woman.png";
 import { Container, Image, TextAbout } from './styles';
 
 const Banner = () => {

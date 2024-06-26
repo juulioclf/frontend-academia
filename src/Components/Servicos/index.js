@@ -1,7 +1,7 @@
 import ImageText from "../Image-Text";
 import { Container, BlockImage } from "./styles";
-import BoyRunning from '../../Assets/images/boy-running.jpg'
-import mantraining from '../../Assets/images/homem-levantando-peso.webp'
+import BoyRunning from '../../assets/images/boy-running.jpg'
+import mantraining from '../../assets/images/homem-levantando-peso.webp'
 
 
 const Servicos = () => {

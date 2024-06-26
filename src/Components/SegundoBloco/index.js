@@ -1,4 +1,4 @@
-import imgTerra from '../../Assets/images/boy.png';
+import imgTerra from '../../assets/images/boy.png';
 import { ImageText, TextAbout } from './styles';
 
 const SegundoBloco = () => {

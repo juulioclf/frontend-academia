@@ -1,4 +1,4 @@
-import ImagemMulher from '../../Assets/images/Lipe.jpeg';
+import ImagemMulher from '../../assets/images/Lipe.jpeg';
 import { Container, TextAbout, Image, TextSide } from './styles';
 
 const PrimeiroBloco = () => {

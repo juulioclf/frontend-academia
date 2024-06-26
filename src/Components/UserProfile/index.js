@@ -1,4 +1,4 @@
-import Avatar from "../../Assets/images/avatar.png";
+import Avatar from "../../assets/images/avatar.png";
 import { Container } from "./styles";
 
 
